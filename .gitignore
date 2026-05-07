@@ -1,0 +1,4 @@
+brochures/*
+.venv
+!brochures/.gitkeep
+__pycache__
