@@ -1,16 +1,16 @@
-# Brochure Generator
+# Learning Tutorial Generator
 
-A small tool that fetches information from a given website, processes the content with a local Llama model, and generates a company brochure as a Markdown file.
+A small tool that fetches a given article, processes the content with a local Llama model, and generates a learning tutorial as a Markdown file.
 
 ## What it does
 
-The project takes a website URL as input, extracts relevant company information, and uses a locally running Llama model to create a concise brochure-style summary. The final output is saved as a `.md` file.
+The project takes an article URL as input, extracts the article content, and uses a locally running Llama model to create a clear, structured learning tutorial. The final output is saved as a `.md` file.
 
 ## Features
 
-- Fetches content from a provided website
-- Extracts useful company information
-- Uses a local Llama model for brochure generation
+- Fetches content from a provided article URL
+- Extracts the article text and relevant links
+- Uses a local Llama model for tutorial generation
 - Exports the result as a Markdown file
 - Runs locally without relying on external AI APIs
 
@@ -18,9 +18,9 @@ The project takes a website URL as input, extracts relevant company information,
 
 - Python 3.10+
 - A local Llama model setup
-- Internet access for fetching website content
+- Internet access for fetching article content
 
 ## Usage
 
 ```bash
-python create_brochure.py https://example.com
+python create_summary.py https://example.com/article
