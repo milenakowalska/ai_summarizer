@@ -2,3 +2,4 @@ brochures/*
 .venv
 !brochures/.gitkeep
 __pycache__
+.env
